@@ -1,6 +1,7 @@
 package be.zajac.development;
 
 import be.zajac.core.FWCore;
+import be.zajac.util.TextFieldUtil;
 import nme.display.Sprite;
 import nme.events.Event;
 import nme.Lib;
@@ -23,6 +24,8 @@ class Main extends Sprite {
 
 	private function init(e) {
 		// entry point
+		FWCore.init(stage);
+		TextFieldUtil.DEFAULT_FONT = "Arial bold";
 		addChild(new ComponentTest());
 	}
 	
@@ -31,7 +34,6 @@ class Main extends Sprite {
 		stage.scaleMode = nme.display.StageScaleMode.NO_SCALE;
 		stage.align = nme.display.StageAlign.TOP_LEFT;
 		
-		FWCore.init(stage);
 		Lib.current.addChild(new Main());
 	}
 	

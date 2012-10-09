@@ -23,6 +23,7 @@ class ComponentTest extends Sprite{
 		_button.x = 50;
 		_button.y = 50;
 		//_button.backgroundColor = 0xFFFA77;
+		_button.label = "Stojan";
 		addChild(_button);
 	}
 	
