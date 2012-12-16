@@ -8,7 +8,7 @@
 	<!-- output -->
 	<app main="be.zajac.development.Main" file="ZajacRazvoj" path="bin" />
 	
-	<window background="#000000" fps="60" />
+	<window background="#acacac" fps="60" />
 	<window width="800" height="480" unless="mobile" />
 	<window orientation="landscape" vsync="true" antialiasing="0" if="cpp" />
 	
@@ -19,6 +19,11 @@
 	<!-- assets -->
 	<icon path="assets/nme.svg" />
 	<assets path="assets/img" rename="img" />
+	<assets path="assets/css" rename="css" />
+	
+	<assets>
+		<font id="Arial" name="assets/fonts/ARIAL.TTF" />
+	</assets>
 	
 	<!-- DLLs -->
 	<ndll name="std" />
@@ -28,7 +33,10 @@
 
 	<!-- optimize JS output -->
 	<haxeflag name="--dead-code-elimination" if="html5" />
-	<haxeflag name="-cp ../core" />
 	<haxeflag name="--js-modern" if="html5" />
+	
+	<haxeflag name="-cp ../core" />
+	
+	<!-- <haxedef name="mobile" /> -->
 	
 </project>

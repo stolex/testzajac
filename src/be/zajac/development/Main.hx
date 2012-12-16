@@ -2,6 +2,7 @@ package be.zajac.development;
 
 import be.zajac.core.FWCore;
 import be.zajac.util.TextFieldUtil;
+import be.zajac.core.StyleManager;
 import nme.display.Sprite;
 import nme.events.Event;
 import nme.Lib;
@@ -24,8 +25,8 @@ class Main extends Sprite {
 
 	private function init(e) {
 		// entry point
-		FWCore.init(stage);
-		TextFieldUtil.DEFAULT_FONT = "Arial bold";
+		TextFieldUtil.DEFAULT_FONT = "Arial";
+		//StyleManager.addResource('css/t.css');
 		addChild(new ComponentTest());
 	}
 	
