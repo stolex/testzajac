@@ -1,5 +1,6 @@
 package be.zajac.development.pages;
 import be.zajac.development.pages.APage;
+import be.zajac.events.ListEvent;
 import be.zajac.ui.List;
 
 /**
@@ -24,6 +25,11 @@ class ListPage extends APage {
 		
 		super.initialize();
 		title = 'Label Example';
+		test.addEventListener(ListEvent.SELECT, onSelect);
+	}
+	
+	private function onSelect(evt:ListEvent):Void {
+		test.enabled = false;
 	}
 	
 	override public function orderElements(): Void {

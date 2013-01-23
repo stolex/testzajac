@@ -1,6 +1,7 @@
 package be.zajac.development.pages;
 import be.zajac.core.FWCore;
 import be.zajac.ui.Button;
+import nme.events.MouseEvent;
 
 /**
  * ...
@@ -18,11 +19,20 @@ class ButtonPage extends APage {
 	override public function initialize(): Void {
 		test = new Button();
 		test.label = 'Click Me';
+		test.color = 0xffffff;
+		test.borderColor = 0xff00;
+		test.backgroundColor = 0x559900;
 		addChild(test);
 		test.setSize(FWCore.getHeightUnit() * 5, FWCore.getHeightUnit());	// hack because button is not selecting default size
 		
 		super.initialize();
 		title = 'Button Example';
+		
+		test.addEventListener(MouseEvent.CLICK, onMouse);
+	}
+	
+	private function onMouse(e:MouseEvent):Void {
+		test.enabled = false;
 	}
 	
 	override public function orderElements(): Void {
