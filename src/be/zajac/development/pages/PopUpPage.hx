@@ -63,8 +63,9 @@ class PopUpPage extends APage {
 		
 		c_button.addEventListener(MouseEvent.CLICK, _closePopUp);
 		
-		PopUpManager.addPopUp(_popup, true);
+		PopUpManager.addPopUp(null, _popup, true);
 		PopUpManager.centerPopUp(_popup);
+
 	}
 	
 	private function _closePopUp(evt: MouseEvent): Void {
