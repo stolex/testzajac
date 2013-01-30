@@ -22,8 +22,6 @@ class SliderPage extends APage {
 		
 		testV = new Slider();
 		testV.direction = Slider.DIRECTION_VERTICAL;
-		testV.Width = FWCore.getHeightUnit();
-		testV.Height = FWCore.getHeightUnit() * 5;
 		addChild(testV);
 		
 		super.initialize();

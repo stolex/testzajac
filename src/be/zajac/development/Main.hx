@@ -1,6 +1,7 @@
 package be.zajac.development;
 
 import be.zajac.core.FWCore;
+import be.zajac.ui.BaseComponent;
 import be.zajac.util.TextFieldUtil;
 import be.zajac.core.StyleManager;
 import nme.display.Sprite;

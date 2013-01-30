@@ -23,7 +23,6 @@ class ButtonPage extends APage {
 		test.borderColor = 0xff00;
 		test.backgroundColor = 0x559900;
 		addChild(test);
-		test.setSize(FWCore.getHeightUnit() * 5, FWCore.getHeightUnit());	// hack because button is not selecting default size
 		
 		super.initialize();
 		title = 'Button Example';
