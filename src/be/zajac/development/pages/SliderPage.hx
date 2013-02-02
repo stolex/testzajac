@@ -21,6 +21,7 @@ class SliderPage extends APage {
 		addChild(test);
 		
 		testV = new Slider();
+		testV.borderColor = 0;
 		testV.direction = Slider.DIRECTION_VERTICAL;
 		addChild(testV);
 		
