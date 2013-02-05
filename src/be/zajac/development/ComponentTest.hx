@@ -7,6 +7,7 @@ import be.zajac.development.pages.ComboBoxPage;
 import be.zajac.development.pages.LabelPage;
 import be.zajac.development.pages.ListPage;
 import be.zajac.development.pages.PopUpPage;
+import be.zajac.development.pages.PreloaderPage;
 import be.zajac.development.pages.RadioButtonPage;
 import be.zajac.development.pages.SliderPage;
 import be.zajac.development.pages.TextInputPage;
@@ -33,7 +34,7 @@ class ComponentTest extends Sprite {
 		_list = new List();
 		_list.selectable = false;
 		_list.items = [
-			'Label', 'TextInput', 'Button', 'CheckBox', 'RadioButton', 'Slider', 'List', 'ComboBox', 'PopUp'
+			'Label', 'TextInput', 'Button', 'CheckBox', 'RadioButton', 'Slider', 'List', 'ComboBox', 'Preloader', 'PopUp'
 		];
 		_list.addEventListener(ListEvent.SELECT, _onSelect);
 		addChild(_list);
@@ -71,6 +72,8 @@ class ComponentTest extends Sprite {
 				_showPage(new ListPage());
 			case 'ComboBox':
 				_showPage(new ComboBoxPage());
+			case 'Preloader':
+				_showPage(new PreloaderPage());
 			case 'PopUp':
 				_showPage(new PopUpPage());
 		}

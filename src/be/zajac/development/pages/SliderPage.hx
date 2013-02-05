@@ -23,6 +23,7 @@ class SliderPage extends APage {
 		testV = new Slider();
 		testV.borderColor = 0;
 		testV.direction = Slider.DIRECTION_VERTICAL;
+		//testV.buttonStyleName = ".stilZaButton";
 		addChild(testV);
 		
 		super.initialize();
