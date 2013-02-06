@@ -16,6 +16,9 @@ class PreloaderPage extends APage {
 	
 	override public function initialize(): Void {
 		test = new PreloaderCircle();
+		//test.segments = 20;
+		//test.radius = 15;
+		//test.color = 0xff;
 		addChild(test);
 		
 		super.initialize();		
