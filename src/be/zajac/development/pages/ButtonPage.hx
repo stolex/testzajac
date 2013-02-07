@@ -31,13 +31,14 @@ class ButtonPage extends APage {
 	}
 	
 	private function onMouse(e:MouseEvent):Void {
+		trace('click');
 		test.enabled = false;
 	}
 	
 	override public function orderElements(): Void {
 		super.orderElements();
-		test.x = (Width - test.Width) / 2;
-		test.y = (Height - test.Height) / 2;
+		test.x = Math.round((Width - test.Width) / 2);
+		test.y = Math.round((Height - test.Height) / 2);
 	}
 	
 }

@@ -17,6 +17,9 @@ class LabelPage extends APage {
 	override public function initialize(): Void {
 		test = new Label();
 		test.text = 'Test Label';
+		test.backgroundColor = 0x222222;
+		test.borderColor = 0xbbbbbb;
+		test.roundness = 5;
 		addChild(test);
 		
 		super.initialize();

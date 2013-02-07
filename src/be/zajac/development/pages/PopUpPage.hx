@@ -26,7 +26,6 @@ class PopUpPage extends APage {
 		test.label = 'PopUp';
 		test.addEventListener(MouseEvent.CLICK, _openPopUp);
 		addChild(test);
-		test.setSize(FWCore.getHeightUnit() * 5, FWCore.getHeightUnit());	// hack because button is not selecting default size
 		
 		super.initialize();
 		title = 'PopUp Example';
@@ -55,8 +54,6 @@ class PopUpPage extends APage {
 		
 		var c_button: Button = new Button();
 		c_button.label = 'Close';
-		c_button.Width = FWCore.getHeightUnit() * 5;
-		c_button.Height = FWCore.getHeightUnit();
 		c_button.x = 5;
 		c_button.y = c_label.Height + 10;
 		_popup.addChild(c_button);

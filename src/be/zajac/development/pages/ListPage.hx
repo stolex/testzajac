@@ -29,7 +29,7 @@ class ListPage extends APage {
 	}
 	
 	private function onSelect(evt:ListEvent):Void {
-		test.enabled = false;
+		//test.enabled = false;
 	}
 	
 	override public function orderElements(): Void {

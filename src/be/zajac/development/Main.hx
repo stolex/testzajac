@@ -27,7 +27,7 @@ class Main extends Sprite {
 	private function init(e) {
 		// entry point
 		TextFieldUtil.DEFAULT_FONT = "Arial";
-		//StyleManager.addResource('css/t.css');
+		StyleManager.addResource('css/stojan.css');
 		addChild(new ComponentTest());
 	}
 	

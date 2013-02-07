@@ -58,7 +58,6 @@ class APage extends BaseComponent {
 	private function orderElements(): Void {
 		buttonBack.x = 0;
 		buttonBack.y = 0;
-		buttonBack.setSize(FWCore.getHeightUnit() * 5, FWCore.getHeightUnit());	// hack because button is not selecting default size
 		labelTitle.x = buttonBack.Width;
 		labelTitle.y = 0;
 		labelTitle.Width = Width - labelTitle.x;
