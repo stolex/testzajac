@@ -1,6 +1,6 @@
 package be.zajac.development.pages;
-import be.zajac.core.FWCore;
-import be.zajac.ui.ComboBox;
+import rs.zajac.core.FWCore;
+import rs.zajac.ui.ComboBox;
 
 /**
  * ...

@@ -1,6 +1,6 @@
 package be.zajac.development.pages;
-import be.zajac.core.FWCore;
-import be.zajac.ui.Slider;
+import rs.zajac.core.FWCore;
+import rs.zajac.ui.Slider;
 
 /**
  * ...

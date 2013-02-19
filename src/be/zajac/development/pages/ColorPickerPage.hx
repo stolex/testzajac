@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import be.zajac.ui.ColorPicker;
+import rs.zajac.ui.ColorPicker;
 
 /**
  * ...

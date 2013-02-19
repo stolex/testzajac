@@ -1,9 +1,10 @@
 package be.zajac.development;
 
-import be.zajac.core.FWCore;
-import be.zajac.ui.BaseComponent;
-import be.zajac.util.TextFieldUtil;
-import be.zajac.core.StyleManager;
+import rs.zajac.core.FWCore;
+import rs.zajac.ui.BaseComponent;
+import rs.zajac.util.ColorUtil;
+import rs.zajac.util.TextFieldUtil;
+import rs.zajac.core.StyleManager;
 import nme.display.Sprite;
 import nme.events.Event;
 import nme.Lib;
@@ -37,6 +38,7 @@ class Main extends Sprite {
 		stage.align = nme.display.StageAlign.TOP_LEFT;
 		
 		Lib.current.addChild(new Main());
+		
 	}
 	
 }

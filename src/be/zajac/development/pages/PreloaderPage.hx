@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import be.zajac.ui.PreloaderCircle;
+import rs.zajac.ui.PreloaderCircle;
 
 /**
  * ...

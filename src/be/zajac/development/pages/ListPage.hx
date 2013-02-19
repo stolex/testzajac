@@ -1,7 +1,7 @@
 package be.zajac.development.pages;
 import be.zajac.development.pages.APage;
-import be.zajac.events.ListEvent;
-import be.zajac.ui.List;
+import rs.zajac.events.ListEvent;
+import rs.zajac.ui.List;
 
 /**
  * ...

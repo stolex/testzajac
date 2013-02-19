@@ -1,9 +1,9 @@
 package be.zajac.development.pages;
-import be.zajac.core.FWCore;
+import rs.zajac.core.FWCore;
 import be.zajac.development.events.PageEvent;
-import be.zajac.ui.BaseComponent;
-import be.zajac.ui.Button;
-import be.zajac.ui.Label;
+import rs.zajac.ui.BaseComponent;
+import rs.zajac.ui.Button;
+import rs.zajac.ui.Label;
 import nme.events.Event;
 import nme.events.MouseEvent;
 

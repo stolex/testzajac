@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import be.zajac.ui.Label;
+import rs.zajac.ui.Label;
 
 /**
  * ...

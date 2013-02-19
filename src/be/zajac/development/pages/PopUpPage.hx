@@ -1,9 +1,9 @@
 package be.zajac.development.pages;
-import be.zajac.core.FWCore;
-import be.zajac.managers.PopUpManager;
-import be.zajac.ui.Button;
-import be.zajac.ui.Label;
-import be.zajac.ui.TextInput;
+import rs.zajac.core.FWCore;
+import rs.zajac.managers.PopUpManager;
+import rs.zajac.ui.Button;
+import rs.zajac.ui.Label;
+import rs.zajac.ui.TextInput;
 import nme.display.Sprite;
 import nme.events.MouseEvent;
 import nme.Lib;

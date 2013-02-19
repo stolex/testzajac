@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import be.zajac.ui.RadioButton;
+import rs.zajac.ui.RadioButton;
 
 /**
  * ...
