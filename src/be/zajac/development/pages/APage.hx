@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import rs.zajac.core.FWCore;
+import rs.zajac.core.ZajacCore;
 import be.zajac.development.events.PageEvent;
 import rs.zajac.ui.BaseComponent;
 import rs.zajac.ui.Button;

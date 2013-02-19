@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import rs.zajac.core.FWCore;
+import rs.zajac.core.ZajacCore;
 import rs.zajac.managers.PopUpManager;
 import rs.zajac.ui.Button;
 import rs.zajac.ui.Label;

@@ -1,10 +1,10 @@
 package be.zajac.development;
 
-import rs.zajac.core.FWCore;
+import rs.zajac.core.ZajacCore;
 import rs.zajac.ui.BaseComponent;
 import rs.zajac.util.ColorUtil;
 import rs.zajac.util.TextFieldUtil;
-import rs.zajac.core.StyleManager;
+import rs.zajac.managers.StyleManager;
 import nme.display.Sprite;
 import nme.events.Event;
 import nme.Lib;

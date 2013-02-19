@@ -1,5 +1,5 @@
 package be.zajac.development.pages;
-import rs.zajac.core.FWCore;
+import rs.zajac.core.ZajacCore;
 import rs.zajac.ui.ComboBox;
 
 /**
@@ -43,9 +43,9 @@ class ComboBoxPage extends APage {
 	override public function orderElements(): Void {
 		super.orderElements();
 		testScroll.x = (Width - testScroll.Width) / 2;
-		testScroll.y = (Height - testScroll.Height) / 2 - FWCore.getHeightUnit();
+		testScroll.y = (Height - testScroll.Height) / 2 - ZajacCore.getHeightUnit();
 		testAutoSize.x = (Width - testAutoSize.Width) / 2;
-		testAutoSize.y = testScroll.y + testScroll.Height + FWCore.getHeightUnit();
+		testAutoSize.y = testScroll.y + testScroll.Height + ZajacCore.getHeightUnit();
 		//testAutoSize.y = Height - testAutoSize.Height - 10;
 	}
 	
