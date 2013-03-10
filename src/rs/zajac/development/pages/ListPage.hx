@@ -1,5 +1,5 @@
-package be.zajac.development.pages;
-import be.zajac.development.pages.APage;
+package rs.zajac.development.pages;
+import rs.zajac.development.pages.APage;
 import rs.zajac.events.ListEvent;
 import rs.zajac.ui.List;
 

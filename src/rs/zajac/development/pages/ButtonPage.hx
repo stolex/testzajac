@@ -1,4 +1,4 @@
-package be.zajac.development.pages;
+package rs.zajac.development.pages;
 import rs.zajac.core.ZajacCore;
 import rs.zajac.ui.Button;
 import nme.events.MouseEvent;
@@ -31,8 +31,7 @@ class ButtonPage extends APage {
 	}
 	
 	private function onMouse(e:MouseEvent):Void {
-		trace('click');
-		test.enabled = false;
+		//test.enabled = false;
 	}
 	
 	override public function orderElements(): Void {

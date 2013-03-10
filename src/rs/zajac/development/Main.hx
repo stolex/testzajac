@@ -1,4 +1,4 @@
-package be.zajac.development;
+package rs.zajac.development;
 
 import rs.zajac.core.ZajacCore;
 import rs.zajac.ui.BaseComponent;

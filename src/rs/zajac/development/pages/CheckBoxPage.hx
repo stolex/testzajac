@@ -1,4 +1,4 @@
-package be.zajac.development.pages;
+package rs.zajac.development.pages;
 import rs.zajac.core.ZajacCore;
 import rs.zajac.ui.CheckBox;
 
