@@ -8,7 +8,7 @@ import nme.events.Event;
 import nme.events.MouseEvent;
 
 /**
- * ...
+ * Main abstract page. All UI subpages extends this component
  * @author Aleksandar Bogdanovic
  */
 

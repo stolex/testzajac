@@ -3,7 +3,7 @@ import rs.zajac.core.ZajacCore;
 import rs.zajac.ui.CheckBox;
 
 /**
- * ...
+ * Checkbox test page
  * @author Aleksandar Bogdanovic
  */
 
@@ -19,7 +19,6 @@ class CheckBoxPage extends APage {
 		test = new CheckBox();
 		test.label = 'Select Me';
 		addChild(test);
-		//test.setSize(FWCore.getHeightUnit() * 5, FWCore.getHeightUnit());	// hack because button is not selecting default size
 		
 		super.initialize();
 		title = 'CheckBox Example';

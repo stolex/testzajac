@@ -20,7 +20,7 @@ import nme.events.Event;
 import nme.Lib;
 
 /**
- * ...
+ * Main page used to switch subpages for every UI component examples
  * @author Ilic S Stojan
  */
 

@@ -2,7 +2,7 @@ package rs.zajac.development.pages;
 import rs.zajac.ui.ColorPicker;
 
 /**
- * ...
+ * ColorPicker test page
  * @author Aleksandar Bogdanovic
  */
 

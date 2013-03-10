@@ -10,7 +10,7 @@ import nme.events.Event;
 import nme.Lib;
 
 /**
- * ...
+ * Test project - now to use Zajac NME UI framework
  * @author Ilic S Stojan
  */
 
@@ -28,7 +28,7 @@ class Main extends Sprite {
 	private function init(e) {
 		// entry point
 		TextFieldUtil.DEFAULT_FONT = "Arial";
-		StyleManager.addResource('css/stojan.css');
+		//StyleManager.addResource('css/stojan.css');
 		addChild(new ComponentTest());
 	}
 	
